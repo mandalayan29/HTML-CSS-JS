@@ -1,0 +1,44 @@
+img{
+    height: 30%;
+    width: 20%;
+}
+
+div{
+    border: 2px solid red;
+}
+
+.flex-container1{
+    display: flex;
+    justify-content: center;
+    /* justify-content: baseline; */
+    /* justify-content: flex-start; */
+    flex-wrap: no-wrap;
+    /* align-content: flex-end; */
+}
+
+.flex-item1{
+    /* align-items: flex-end; */
+    align-content: stretch;
+}
+
+
+.flex-container2{
+    display: flex;
+}
+
+.flex-container3{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-container4{
+    display: flex;
+    justify-content: space-between;
+    /* justify content will align all items along main axis */
+    align-items: center;    
+    /* align item will align all flex-items along cross axis */
+    /* for justify-content and align-item depends on flex-direction */
+    /* main and cross axis change according to flex direction */
+    /* by default or flex-direction: row/ row-reverse , main axes is x asex and cross is y axes */
+    /* for flex-direction: column or column-reverse it will be opposite */
+}
